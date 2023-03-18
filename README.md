@@ -2,7 +2,7 @@
 
 ## Contents
 
-- d2[https://github.com/ksh5022/devcontainer-features/blob/main/src/d2/README.md]
+- [d2](https://github.com/ksh5022/devcontainer-features/blob/main/src/d2/README.md)
 
 ## Usage
 
