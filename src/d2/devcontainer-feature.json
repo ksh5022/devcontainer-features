@@ -1,0 +1,21 @@
+{
+    "name": "d2",
+    "id": "d2",
+    "version": "1.0.0",
+    "description": "Install [d2](https://d2lang.com/tour/intro/), declarative diagramming tool",
+    "documentationURL": "https://github.com/ksh5022/devcontainer-features/tree/main/src/d2",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest",
+                "0.2.5"
+            ],
+            "default": "latest",
+            "description": "Select version of d2."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
