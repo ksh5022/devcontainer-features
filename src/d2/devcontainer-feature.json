@@ -7,7 +7,7 @@
     "options": {
         "version": {
             "type": "string",
-            "proposal": [
+            "proposals": [
                 "latest",
                 "0.2.5"
             ],
