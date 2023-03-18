@@ -65,7 +65,7 @@ find_version_from_git_tags() {
 }
 
 # Install dependencies
-check_packages curl git tar chromium
+check_packages curl git tar ca-certificates make chromium
 
 architecture="$(uname -m)"
 case $architecture in
