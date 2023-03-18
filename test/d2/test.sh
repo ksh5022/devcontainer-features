@@ -14,7 +14,7 @@ source dev-container-features-test-lib
 # The 'check' command comes from the dev-container-features-test-lib.
 check "d2 version" d2 version
 check "creates svg" bash -c "d2 fixture.d2 && ls fixture.svg | grep fixture.svg"
-check "creates png" bash -c "d2 fixture.d2 && ls fixture.png | grep fixture.png"
+check "creates png" bash -c "d2 fixture.d2 fixture.png && ls fixture.png | grep fixture.png"
 
 # Report result
 # If any of the checks above exited with a non-zero exit code, the test will fail.
