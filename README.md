@@ -10,7 +10,7 @@ To use the features from this repository, add the desired features to devcontain
 
 ```json
 {
-    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "image": "mcr.microsoft.com/devcontainers/base:debian",
     "features": {
         "ghcr.io/ksh5022/devcontainer-features/d2:1": {
             "version": "latest"
